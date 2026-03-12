@@ -3,8 +3,15 @@
 #include <string>
 #include <chrono>
 #include <ctime>
+#include <sstream>
+#include <functional>
+#include <memory>
 
 namespace shrimp {
+
+// 前向声明
+class Logger;
+class Memory;
 
 /**
  * 简化的Cron解析器
